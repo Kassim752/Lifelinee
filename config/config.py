@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("6093398509:AAHFx1r9qJrOviEZUKnVcm_2g15IU298cS0")
 
 MONGO_DB_URI = getenv("mongodb+srv://marvel:marvel@marvelcloud0.gse7lpr.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001755297039"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", ""𝐋ɪғᴇ 𝐋ɪɴᴇ 𝐌ᴜsɪᴄ)
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Life line")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5465568465").split()))
 
